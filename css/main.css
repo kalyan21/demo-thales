@@ -1,0 +1,22 @@
+.navbar-brand img {
+    width: 10rem;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+.container {
+    min-height: 30rem;
+}
+
+footer {
+    padding: 3rem 3rem;
+    background-color: #141534;
+    color: #f8f9fa;
+    text-align: center;
+}
+
+.copy-right-text {
+    color: #424e68;
+}
