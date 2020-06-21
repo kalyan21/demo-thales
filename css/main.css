@@ -6,12 +6,12 @@
     justify-content: flex-end;
 }
 
-.container {
-    min-height: 30rem;
+.container-fluid {
+    min-height: 50rem;
 }
 
 footer {
-    padding: 3rem 3rem;
+    padding: 2rem 3rem;
     background-color: #141534;
     color: #f8f9fa;
     text-align: center;
