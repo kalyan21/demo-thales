@@ -27,18 +27,36 @@
         </nav>
     </header>
     <div class="container-fluid">
-        <div class="input-group mb-3 mt-3">
-            <input id="field-0" type="text" class="form-control" placeholder="Place link to embed"
-                aria-label="Place link to embed" aria-describedby="button-addon2" required>
-            <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="button" id="button-addon2"
-                    onclick="loadIframeToContainer('field-0')">Submit</button>
+        <div class="row">
+            <div class="col-sm">
+                <div class="input-group mb-3 mt-3">
+                    <input id="field-1" type="text" class="form-control" placeholder="Place link to embed"
+                        aria-label="Place link to embed" aria-describedby="button-addon2" required>
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2"
+                            onclick="loadIframeToContainer('field-1')">Submit</button>
+                    </div>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 mb-3">
+                    <iframe id="iframe-container-field-1" class="embed-responsive-item" src=""></iframe>
+                </div>
+
+            </div>
+            <div class="col-sm">
+                <div class="input-group mb-3 mt-3">
+                    <input id="field-2" type="text" class="form-control" placeholder="Place link to embed"
+                        aria-label="Place link to embed" aria-describedby="button-addon2" required>
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2"
+                            onclick="loadIframeToContainer('field-2')">Submit</button>
+                    </div>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 mb-3">
+                    <iframe id="iframe-container-field-2" class="embed-responsive-item" src=""></iframe>
+                </div>
+
             </div>
         </div>
-        <div class="embed-responsive embed-responsive-16by9 mb-3">
-            <iframe id="iframe-container-field-0" class="embed-responsive-item" src=""></iframe>
-        </div>
-
     </div>
     <footer>
         <div class="mb-2">
